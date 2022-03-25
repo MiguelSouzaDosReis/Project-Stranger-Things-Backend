@@ -1,7 +1,0 @@
-on: [pull_request]
-
-jobs:
-  eslint:
-   runs-on: ubuntu-latest
-    steps:
-     node-version: 14

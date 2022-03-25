@@ -1,4 +1,5 @@
-jobs:
-   web:
-    steps:
-          run: node 
+build:
+  docker:
+    web: Dockerfile
+run:  
+  web: node
